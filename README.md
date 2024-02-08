@@ -7,7 +7,8 @@ In this module challenge, we created a 5 day weather dashboard. The user can typ
 ## Usage
 
 Image of Completed Website:
-![Image of Completed Website]
+![Image of Completed Website](assets/Screenshot%202024-02-07%20at%2011.09.33%20PM.png)
+
 
 URL of the deployed webpage: 
 
