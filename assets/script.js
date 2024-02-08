@@ -102,7 +102,7 @@ async function displayWeather() {
         var getLong = response.coord.lon;
         var getLat = response.coord.lat;
         
-        var uvURL = "https://api.openweathermap.org/data/2.5/uvi?appid=87085318e22160ef9fcc7ddc40765206"+getLat+"&lon="+getLong;
+        var uvURL = "https://api.openweathermap.org/data/2.5/uvi?appid=87085318e22160ef9fcc7ddc40765206&lat="+getLat+"&lon="+getLong;
         var uvResponse = await $.ajax({
             url: uvURL,
             method: "GET"
@@ -164,6 +164,7 @@ async function displayFiveDayForecast() {
       }
       $("#forecastContainer").html(forecastDiv);
     }
+
 function historyDisplayWeather(){
     cityname = $(this).attr("data-name");
     displayWeather();
